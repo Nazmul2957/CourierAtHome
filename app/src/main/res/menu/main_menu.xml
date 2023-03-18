@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/add_percel"
+            android:icon="@drawable/ic_nav_add_parcel"
+            android:title="Add Parcel" />
+
+        <item
+            android:id="@+id/percel_list"
+            android:icon="@drawable/ic_nav_parcel"
+            android:title="Parcel List" />
+
+        <item
+            android:id="@+id/order_tracking"
+            android:icon="@drawable/ic_nav_order_track"
+            android:title="Order Tracking" />
+
+        <item
+            android:id="@+id/coverage_area"
+            android:icon="@drawable/ic_nav_coverage_area"
+            android:title="Coverage Area" />
+
+        <item
+            android:id="@+id/service_charge"
+            android:icon="@drawable/ic_nav_service_charge"
+            android:title="Service Charge" />
+        <item
+            android:id="@+id/payment_list"
+            android:icon="@drawable/ic_nav_payment_list"
+            android:title="Payment List" />
+
+        <item
+            android:id="@+id/pickup_parcel"
+            android:icon="@drawable/pickup_parcel_list"
+            android:title="Pickup Parcel List" />
+        <item
+            android:id="@+id/return_parcel"
+            android:icon="@drawable/returning_parcel"
+            android:title="Return Parcel List" />
+        <item
+            android:id="@+id/delivery_list"
+            android:icon="@drawable/ic_nav_delivery_list"
+            android:title="Delivery List" />
+        <item
+            android:id="@+id/log_out"
+            android:icon="@drawable/ic_nav_logout"
+            android:title="Log out" />
+
+
+    </group>
+</menu>

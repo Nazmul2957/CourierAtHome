@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CourierAtHomeMerchant</string>
+    <string name="login">Login</string>
+    <string name="forgot">Forgot password</string>
+    <string name="create_account">No account yet? create account</string>
+    <string name="registration">Registration</string>
+    <string name="already_have_account">
+        Already have account?<font color='red'>Login</font>
+    </string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string name="fragment"></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_add_parcel">Add_Parcel</string>
+    <string name="long_text">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be</string>
+    <string name="color">#567845</string>
+
+    <string name="splash">Your Package is being delivery into your location</string>
+
+
+</resources>

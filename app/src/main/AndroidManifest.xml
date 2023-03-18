@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.stitbd.courierathomemerchant">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@color/courierhome_background"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/courierhome_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BeaconStitbd">
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.ReturnParcelActivity"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.PickupParcelListActivity"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.ChangePasswordActivity"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.UpdateProfileActivity"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.PaymentListDetails"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity android:name="com.stitbd.courierathomemerchant.Activity.OtpRegistrationConfirm" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Percel_Details"
+            android:theme="@style/Theme.BeaconStitbdone">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Total_Collect_Amount"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Total_Pending_Collect_Amonut"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Total_Return_Complete_percel"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Total_Return_Percel"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Total_Delivery_Complete_Percel"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Total_Delivery_Percel"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Waiting_Delivery_Percel"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Total_WaitingPercel"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Total_Cancle_Percel"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Profile_Page"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Dashboard_Click_Total_Parcel"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Reset_Password_Page"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.OTP_Page"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.ForgotPasswordActivity"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity android:name="com.stitbd.courierathomemerchant.Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Track_Parcel"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Payment_List"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity android:name="com.stitbd.courierathomemerchant.Activity.Dashboard">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+
+        </activity>
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Delivery_Parcel_list"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Service_Charge"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Coverage_Area"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Order_Tracking"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Parcel_list_show"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity
+            android:name="com.stitbd.courierathomemerchant.Activity.Add_Parcel"
+            android:theme="@style/Theme.BeaconStitbdone" />
+        <activity android:name="com.stitbd.courierathomemerchant.Activity.Registration_Page" />
+        <activity android:name="com.stitbd.courierathomemerchant.Activity.MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+    </application>
+
+</manifest>
